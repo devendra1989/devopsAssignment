@@ -1,0 +1,1 @@
+ Invoke-Sqlcmd -Query "SELECT COUNT(*) AS Count FROM invokeTable" -ConnectionString "Data Source=IN-4DM9WP3;Initial Catalog=Shelldb;Integrated Security=True;ApplicationIntent=ReadOnly"
